@@ -1,0 +1,161 @@
+.contact{
+	padding:1em 0 3em;
+}
+.contact-form{
+	margin-top: 2em;
+}
+.text-box input[type="text"],.textarea textarea{
+	border: 2px solid #E5E5E5;
+	width: 100%;
+	padding: 0.85em;
+	border-radius: 0.3em;
+	margin-bottom: 1.5em;
+	color:#858585;
+	transition: border-color 0.3s;
+	-o-transition: border-color 0.3s;
+	-ms-transition: border-color 0.3s;
+	-moz-transition: border-color 0.3s;
+	-webkit-transition: border-color 0.3s;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	outline:none;
+}
+.text-box input[type="text"]:hover,.textarea textarea:hover,.text-box input[type="text"]:focus,.textarea textarea:focus{
+	border-color: #0a0909;
+}
+.textarea textarea{
+	height: 205px;
+	resize: none;
+}
+.contact h4{
+	color: #666;
+	font-size: 2.5em;
+	font-weight: 300;
+	text-align:center;
+}
+.contact-head{
+	color: #858585;
+	font-size: 0.96em;
+	line-height: 1.5em;
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+	padding: 0.8em 0 1em;
+}
+.btn-red-lg{
+	background: url(../images/racket-icon.png) no-repeat #0a0909 17px 21px;
+	border: 1px solid #0a0909;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	font-size: 1.2em;
+	padding: 1em 2em 1em 3.2em;
+	margin: 0 auto;
+	display: inherit;
+}
+.btn-red-lg:hover,.btn-red-lg:focus{
+	background:url(../images/racket-icon.png) no-repeat #666 17px 21px;
+	border:1px solid #fff;
+}
+/*---- start-social-icons----*/
+.social-icons{
+	text-align:center;
+	margin:3em 0 2em;
+}
+.social-icons ul li a span{
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	background: url(../images/social-icons.png) no-repeat 8px 0px;
+}
+.social-icons ul li{
+	list-style:none;
+	display:inline-block;
+	margin-right: 1.2em;
+}
+.social-icons ul li a.twitter span{
+	background: url(../images/social-icons.png) no-repeat -60px 0px;
+}
+.social-icons ul li a.dribbble span{
+	background: url(../images/social-icons.png) no-repeat -136px 0px;
+}
+/*----*/
+.social-icons ul li a.facebook span:hover{
+	background: url(../images/social-icons.png) no-repeat 8px -38px;
+}
+.social-icons ul li a.twitter span:hover{
+	background: url(../images/social-icons.png) no-repeat -60px -38px;
+}
+.social-icons ul li a.dribbble span:hover{
+	background: url(../images/social-icons.png) no-repeat -136px -38px;
+}
+/*--copy-right--*/
+.copy-right{
+	text-align:center;
+}
+.copy-right p{
+	color: #858585;
+	font-size: 0.96em;
+	line-height: 1.5em;
+	text-align: center;
+}
+.copy-right span,.copy-right a{
+	color:#E74C3C;
+}
+.copy-right a{
+	margin:0 0.2em;
+	text-decoration:none;
+}
+.copy-right a:hover{
+	color: #858585;
+}
+/*----start-light-box---*/
+.light-box-info {
+	padding: 1.8em;
+	box-shadow: none;
+	border-radius: 0;
+}
+.light-box-info h3 {
+	color: #666;
+	font-size: 2em;
+	font-weight: 300;
+}
+.light-box-info p{
+	color: #888888;
+	font-size: 0.96em;
+	line-height: 1.5em;
+}
+/* This is the selector i used for my menu, it needs to be set as position:absolute; */
+.subMenu {
+	position: absolute;
+	top: 737px;
+	z-index: 1000;
+	width: 100%;
+
+}
+.subMenu .inner {
+	padding:0;
+	font-weight: 400;
+}
+.subNavBtn {
+	display: block;
+	margin: 0px 0px 0 0;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+}
+.end {
+	margin: 0;
+}
+.section {
+	width: 100%;
+	z-index: 10;
+	position: relative;
+	margin: 0 auto;
+}
+.right-msg span {
+	margin-top: 0.55em;
+}

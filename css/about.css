@@ -1,0 +1,23 @@
+.about{
+	border:1px solid #EEE;
+	border-right:0px;
+	border-left:0px;
+	padding:5em 0;
+}
+.about h3{
+	font-size: 2.5em;  
+}
+.about p{
+	padding: 1em 0 2em 0;
+}
+.btn-red{
+	background: #0a0909;
+	border: 1px solid #0a0909;
+	font-size: 1.3em;
+	padding: 0.5em 1em 0.5em 0.5em;
+}
+.btn-red:hover{
+	background:none;
+	border:1px solid #0a0909;
+	color:#0a0909;
+}

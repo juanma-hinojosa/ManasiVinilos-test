@@ -1,0 +1,124 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,300,500,700,800,900,600,200);
+html, body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 100%;
+    background-color: #FFF;
+}
+ body a{
+ 	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+ }
+.header-note{
+	text-align:center;
+}
+.head-bg{
+	background:url(../images/bg1.jpeg) no-repeat 0px 0px;
+	min-height:737px;
+}
+.header-note{
+	color:#FFF;
+	font-weight:100;
+	padding-top: 13em;
+}
+.header-note h1{
+	font-weight: 200;
+	font-size: 2.8em;
+	margin: 1em;
+}
+.big-btn{
+	background: none;
+	border: 2px solid #FFF;
+	font-size: 1.5em;
+	font-weight: 300;
+	padding: 0.4em 1em 0.4em 1em;
+}
+.big-btn span,.btn-red span{
+	width:17px;
+	height:12px;
+	display:inline-block;
+	background:url(../images/arrow.png) no-repeat 0px 0px;
+	margin-left: 0.5em;
+}
+.big-btn:hover span,.btn-red:hover span{
+	background:url(../images/arrowh.png) no-repeat 0px 0px;
+}
+.big-btn:hover{
+	background:none;
+	border:2px solid #E74C3C;
+	color:#E74C3C;
+}
+
+
+
+.navbar-custom{
+	background: #0a0909;
+}
+.navbar-nav li a{
+	background: none;   
+	text-transform: uppercase;
+	font-size: 0.875em;
+	font-weight: 300;
+	
+}
+.navbar-nav li.active a{
+	color:#fff;
+}
+.right-msg span{
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	background: url(../images/msg.png) no-repeat 0px 0px;
+	vertical-align: middle;
+}  
+.right-msg{
+	float:right;
+}
+.top-grid span{
+	width:143px;
+	height:143px;
+	display:inline-block;
+	background:url(../images/icons.png) no-repeat 0px 0px;
+}
+.top-grid span.icon1{
+	background-position:0px 0px;
+}
+.top-grid span.icon2{
+	background-position: -284px 0px;
+}
+.top-grid span.icon3{
+	background-position: -569px 0px;
+}
+.top-grid span.icon4{
+	background-position: -855px 0px;
+}
+.top-grid span.icon1:hover,.top-grid:hover span.icon1{
+	background-position:0px -148px;
+}
+.top-grid span.icon2:hover,.top-grid:hover span.icon2{
+	background-position:-284px -148px;
+}
+.top-grid span.icon3:hover,.top-grid:hover span.icon3{
+	background-position:-569px -148px;
+}
+.top-grid span.icon4:hover,.top-grid:hover span.icon4{
+	background-position:-855px -148px;
+}
+.top-grid{
+	text-align:center;
+}
+.top-grids{
+	padding: 8em 0 5em;
+}
+.top-grids h2,.about h3{
+	color: #888;
+	font-size: 1.55em;
+	font-weight: 400;
+	margin: 0.45em 0 0.5em 0;
+}
+.top-grids p,.about p{
+	color: #888888;
+	font-size: 0.96em;
+	line-height: 1.5em;
+}
